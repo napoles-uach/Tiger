@@ -21,13 +21,13 @@ st.set_page_config(
 
 
 def call_host():
-  graphistry.register(api=3, protocol="https", server="hub.graphistry.com", username="napoles-uach", password="3#&Rd9cH")
-  TG_HOST = 'https://napoles3d.i.tgcloud.io'
-  #TG_HOST2 = 'https://napoles3d.i.tgcloud.io:9000/query/MyGraph/allConnection?p=4100000006'
-  TG_USERNAME = 'tigergraph'
-  TG_PASSWORD = 'tgCovid19'
-  TG_GRAPHNAME = 'MyGraph'#'testFeb26'
-  TG_SECRET = '4u9jt2b9q1e8km90i66follao1lta45b'
+  graphistry.register(api=3, protocol="https", server="hub.graphistry.com", username="_______", password="______")
+  TG_HOST = 'https://_______.i.tgcloud.io'
+  #TG_HOST2 = '________'
+  TG_USERNAME = '_____'
+  TG_PASSWORD = '_______'
+  TG_GRAPHNAME = '_________'
+  TG_SECRET = '_____________'
 
   conn = tg.TigerGraphConnection(host=TG_HOST,username=TG_USERNAME,password=TG_PASSWORD,graphname=TG_GRAPHNAME,)
   conn.getToken(TG_SECRET)
